@@ -78,8 +78,8 @@
                         <li><button class="btn btn-danger" type="submit" asp-action="LogOut" asp-controller="Account">Log Out</button></li>
                     }
                     else{
-                        <li><button class="btn btn-success" asp-action="Register" asp-controller="Account">Register</button></li>
-                        <li><button class="btn btn-success">Login</button></li>
+                        <li><a><button class="btn btn-success" asp-action="Register" asp-controller="Account" type="submit">Register</button></a></li>
+                        <li><a><button class="btn btn-success" asp-action="Login" asp-controller="Account" type="submit">Login</button></a></li>
                     }
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uCvKpR1aV5j7+Az9fODYk5A1yy/xruR0GFn/38MO+0E=",
+  "Hash": "CjEbLGbZ544kNiQBqUkwA/QiYCymWNRLUErl+b+z/8Q=",
   "Source": "LumiaWebApp",
   "BasePath": "_content/LumiaWebApp",
   "Mode": "Default",
@@ -6543,23 +6543,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\team-3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ClassTime\\Desktop\\Fidan_CodeAcademy\\LumiaWebApp\\wwwroot\\assets\\img\\testimonials\\f1c25418-9214-4768-852b-d6cd0be78858photo-1575936123452-b67c3203c357.jfif",
-      "SourceId": "LumiaWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\Fidan_CodeAcademy\\LumiaWebApp\\wwwroot\\",
-      "BasePath": "_content/LumiaWebApp",
-      "RelativePath": "assets/img/testimonials/f1c25418-9214-4768-852b-d6cd0be78858photo-1575936123452-b67c3203c357.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\testimonials\\f1c25418-9214-4768-852b-d6cd0be78858photo-1575936123452-b67c3203c357.jfif"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\Fidan_CodeAcademy\\LumiaWebApp\\wwwroot\\assets\\img\\testimonials\\ffe66f27-62ba-40bc-9096-e492b884bb1fScreenshot (1).png",

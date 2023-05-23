@@ -137,15 +137,14 @@ public class TestimonialsController : Controller
         await _lumiaDbContext.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
-
+    
     public async Task<IActionResult> Read(int id)
     {
 
         Testimonials? testimonials = await _lumiaDbContext.Testimonials.Include(t=>t.Job).FirstOrDefaultAsync(t=>t.Id==id);
         if (testimonials == null) return NotFound();
 
-        return RedirectToAction(nameof(Index));
+        return View(testimonials);
 
     }
-
 }
