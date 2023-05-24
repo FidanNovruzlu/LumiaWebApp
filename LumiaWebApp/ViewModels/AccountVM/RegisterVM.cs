@@ -4,6 +4,8 @@ namespace LumiaWebApp.ViewModels.AccountVM
 {
     public class RegisterVM
     {
+        [Required,MaxLength(15)]
+        public string Username { get; set; } = null!;
         [EmailAddress]
         public string Email { get; set; } = null!;
         [DataType(DataType.Password),MinLength(8)]

@@ -1,11 +1,13 @@
 ﻿using LumiaWebApp.DAL;
 using LumiaWebApp.Models;
 using LumiaWebApp.ViewModels.TestimonialsVM;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace LumiaWebApp.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles ="Admin")]
 public class TestimonialsController : Controller
 {
     private readonly LumiaDbContext _lumiaDbContext;
